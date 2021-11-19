@@ -33,15 +33,14 @@ public class ArrayRectangles {
     }
 
     public int numberMinPerimeter() {
-        int max = 0;
-        double minPerimeter = rectangle_array[0].perimeter();
+        int min = 0;
 
         for (int i = 0; i < rectangle_array.length - 1; i++) {
-            if (rectangle_array[i].perimeter() < rectangle_array[max].perimeter()) {
-                max = i;
+            if (rectangle_array[i].perimeter() < rectangle_array[min].perimeter()) {
+                min = i;
             }
         }
-        return max;
+        return min;
     }
 
     public int numberSquare() {
