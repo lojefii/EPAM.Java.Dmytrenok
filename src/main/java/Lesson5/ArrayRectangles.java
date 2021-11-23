@@ -1,20 +1,20 @@
 package Lesson5;
 
 public class ArrayRectangles {
-    private Rectangle[] rectangle_array;
+    private Rectangle[] rectangleArray;
 
     public ArrayRectangles(int n) {
-        rectangle_array = new Rectangle[n];
+        rectangleArray = new Rectangle[n];
     }
 
     public ArrayRectangles(Rectangle... rects) {
-        rectangle_array = rects;
+        rectangleArray = rects;
     }
 
     public boolean addRectangle(Rectangle rectangle) {
-        for (int i = 0; i < rectangle_array.length; i++) {
-            if (rectangle_array[i] == null) {
-                rectangle_array[i] = rectangle;
+        for (int i = 0; i < rectangleArray.length; i++) {
+            if (rectangleArray[i] == null) {
+                rectangleArray[i] = rectangle;
                 return true;
             }
         }
@@ -24,8 +24,8 @@ public class ArrayRectangles {
     public int numberMaxArea() {
         int max = 0;
 
-        for (int i = 0; i < rectangle_array.length - 1; i++) {
-            if (rectangle_array[i].area() > rectangle_array[max].area()) {
+        for (int i = 0; i < rectangleArray.length; i++) {
+            if (rectangleArray[i].area() > rectangleArray[max].area()) {
                 max = i;
             }
         }
@@ -35,8 +35,8 @@ public class ArrayRectangles {
     public int numberMinPerimeter() {
         int min = 0;
 
-        for (int i = 0; i < rectangle_array.length - 1; i++) {
-            if (rectangle_array[i].perimeter() < rectangle_array[min].perimeter()) {
+        for (int i = 0; i < rectangleArray.length; i++) {
+            if (rectangleArray[i].perimeter() < rectangleArray[min].perimeter()) {
                 min = i;
             }
         }
@@ -45,7 +45,7 @@ public class ArrayRectangles {
 
     public int numberSquare() {
         int count = 0;
-        for (Rectangle rect : rectangle_array) {
+        for (Rectangle rect : rectangleArray) {
             if (rect.isSquare())
                 count++;
         }

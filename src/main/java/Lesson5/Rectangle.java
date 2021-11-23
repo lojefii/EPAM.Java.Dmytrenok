@@ -5,6 +5,8 @@ public class Rectangle {
     private double B;
 
     public Rectangle(double A, double B) {
+        if(A <= 0 || B <= 0)
+            throw new ExceptionInInitializerError("The sides cannot be 0 or less");
         this.A = A;
         this.B = B;
     }
@@ -36,13 +38,6 @@ public class Rectangle {
     public boolean isSquare() {
         return A == B;
     }
-
-    //public void isSquare() {
-    //    if(A == B)
-    //        System.out.println("Figure is square");
-    //     else
-    //        System.out.println("Figure isn`t square");
-    //}
 
     public void replaceSides() {
         double temp = A;
