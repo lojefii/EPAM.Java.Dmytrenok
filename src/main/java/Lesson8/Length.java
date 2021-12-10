@@ -10,7 +10,7 @@ public class Length {
     public Length() throws FileNotFoundException {
         file = new Scanner(new File("D:\\Програмування\\Java\\EPAM\\src\\main\\java\\Lesson8\\Task.txt"));
         String str = file.nextLine();
-        text = new ArrayList<String>(Arrays.asList(str.split("[,.()\s\n]")));
+        text = new ArrayList<String>(Arrays.asList(str.split("[,.\s\n]")));
     }
 
     public String Length() {

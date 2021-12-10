@@ -11,7 +11,7 @@ public class Frequency {
     public Frequency() throws FileNotFoundException {
         file = new Scanner(new File("D:\\Програмування\\Java\\EPAM\\src\\main\\java\\Lesson8\\Task.txt"));
         String string = file.nextLine();
-        text = string.split("[()\s\n]");
+        text = string.split("[\s\n]");
     }
     public void Frequency() {
         List<String> list = Arrays.asList(text);

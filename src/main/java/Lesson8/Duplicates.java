@@ -12,7 +12,7 @@ public class Duplicates {
     public Duplicates() throws FileNotFoundException {
         file = new Scanner(new File("D:\\Програмування\\Java\\EPAM\\src\\main\\java\\Lesson8\\Task.txt"));
         String str = file.nextLine();
-        text = new ArrayList<String>(Arrays.asList(str.split("[ ,.;()\s\n]")));
+        text = new ArrayList<String>(Arrays.asList(str.split("[;\s\n]")));
     }
 
     public String Duplicates() {
