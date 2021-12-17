@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CompanyTest {
 
     @Test
-    void giveEverybodyBonus() {
+    void give_Everybody_Bonus_Test() {
         SalesPerson person1 = new SalesPerson("Dmytrenok", new BigDecimal(15000), 100);
         SalesPerson person2 = new SalesPerson("Voloshyn", new BigDecimal(17000), 100);
         Manager person3 = new Manager("Sydorova", new BigDecimal(25000), 100);
@@ -28,7 +28,7 @@ public class CompanyTest {
     }
 
     @Test
-    void totalToPay() {
+    void total_To_Pay_Test() {
         SalesPerson person1 = new SalesPerson("Dmytrenok", new BigDecimal(15000), 220);
         SalesPerson person2 = new SalesPerson("Voloshyn", new BigDecimal(17000), 180);
         Manager person3 = new Manager("Sydorova", new BigDecimal(25000), 130);
@@ -51,7 +51,7 @@ public class CompanyTest {
     }
 
     @Test
-    void nameMaxSalary() {
+    void name_Max_Salary_Test() {
         SalesPerson person1 = new SalesPerson("Dmytrenok", new BigDecimal(15000), 220);
         SalesPerson person2 = new SalesPerson("Voloshyn", new BigDecimal(17000), 180);
         Manager person3 = new Manager("Sydorova", new BigDecimal(25000), 130);

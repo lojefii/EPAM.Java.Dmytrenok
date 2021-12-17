@@ -9,6 +9,8 @@ public class Matrix {
     final int columns;
 
     public Matrix(int rows, int columns) {
+        if (rows < 1 || columns < 1)
+            throw new IllegalArgumentException("The size of matrix is less than 1x1");
         this.rows = rows;
         this.columns = columns;
         matrix = new double[rows][columns];
@@ -30,8 +32,8 @@ public class Matrix {
         return columns;
     }
 
-    public String getMatrix() {
-        return Arrays.deepToString(matrix);
+    public double[][] getMatrix() {
+        return matrix;
     }
 
     public void getValue(int row, int column) {

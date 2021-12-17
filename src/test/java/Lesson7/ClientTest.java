@@ -6,8 +6,9 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ClientTest {
 
     @Test
-    void addDeposit() {
+    void add_Deposit_Test() {
         Client client = new Client();
+
         assertTrue(client.addDeposit(new BaseDeposit(3000, 24)));
         for (int i = 0; i < 9; i++) {
             client.addDeposit(new LongDeposit(5000.0, 10));
@@ -17,8 +18,9 @@ public class ClientTest {
     }
 
     @Test
-    void totalIncome() {
+    void total_Income_Test() {
         Client client = new Client();
+
         client.addDeposit(new BaseDeposit(1000, 6));
         client.addDeposit(new SpecialDeposit(1000, 6));
         client.addDeposit(new LongDeposit(1000, 8));
@@ -28,8 +30,9 @@ public class ClientTest {
     }
 
     @Test
-    void maxIncome() {
+    void max_Income_Test() {
         Client client = new Client();
+
         client.addDeposit(new BaseDeposit(1000, 6));
         client.addDeposit(new SpecialDeposit(1000, 10));
         client.addDeposit(new LongDeposit(1000, 8));
@@ -39,8 +42,9 @@ public class ClientTest {
     }
 
     @Test
-    void getIncomeByNumber() {
+    void get_Income_By_Number_Test() {
         Client client = new Client();
+
         client.addDeposit(new BaseDeposit(1000, 16));
         client.addDeposit(new SpecialDeposit(1000, 8));
         client.addDeposit(new LongDeposit(1000, 8));
