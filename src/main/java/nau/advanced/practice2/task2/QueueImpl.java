@@ -7,12 +7,15 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
+import static nau.advanced.practice2.data.CitySerialize.*;
+
 public class QueueImpl implements Queue {
     private Node first;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         QueueImpl queue = new QueueImpl();
         try {
+            writeToXml(cities, pathXml);
             City[] cities = (City[]) CitySerialize.readFromXml(CitySerialize.pathXml);
             for (City city : cities) {
                 queue.enqueue(city);

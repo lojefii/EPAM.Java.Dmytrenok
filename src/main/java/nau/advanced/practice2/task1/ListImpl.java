@@ -7,13 +7,16 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
+import static nau.advanced.practice2.data.CitySerialize.*;
+
 public class ListImpl implements List {
     private Node first;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ListImpl list = new ListImpl();
         try {
-            City[] cities = (City[]) CitySerialize.readFromXml(CitySerialize.pathXml);
+            writeToXml(cities, pathXml);
+            City[] cities = (City[]) CitySerialize.readFromXml(pathXml);
             for (City city : cities) {
                 list.addFirst(city);
             }
