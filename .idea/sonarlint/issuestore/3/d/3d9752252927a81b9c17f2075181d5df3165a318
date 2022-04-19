@@ -1,0 +1,8 @@
+
+T
+java:S3516
+"9Refactor this method to not always return the same value.(ÅáÚùÿÿÿÿ
+W
+java:S1854{"<Remove this useless assignment to local variable "previous".(ÛÃ‚Øùÿÿÿÿ
+Q
+java:S1117|";Rename "iterator" which hides the field declared at line 8.(ß€Ãö

@@ -1,0 +1,18 @@
+
+n
+java:S1104"SMake pathXml a static final constant or non-public and provide accessors if needed.(°›é¼úÿÿÿÿ
+o
+java:S1104"TMake pathJson a static final constant or non-public and provide accessors if needed.(ˆ¯“Éûÿÿÿÿ
+m
+java:S1104"RMake cities a static final constant or non-public and provide accessors if needed.(«²ýóùÿÿÿÿ
+H
+java:S1444"-Make this "public static pathXml" field final(°›é¼úÿÿÿÿ
+I
+java:S1444".Make this "public static pathJson" field final(ˆ¯“Éûÿÿÿÿ
+G
+java:S1444",Make this "public static cities" field final(«²ýóùÿÿÿÿ
+8
+java:S2386"Make this member "protected".(«²ýóùÿÿÿÿ
+U
+java:S1118
+":Add a private constructor to hide the implicit public one.(ï™´‹þÿÿÿÿ

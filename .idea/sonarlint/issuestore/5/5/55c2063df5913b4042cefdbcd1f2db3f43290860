@@ -1,0 +1,8 @@
+
+”
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(°€ÿÙ8­š”„0
+B
+java:S1874",Remove this use of "stop"; it is deprecated.(Áñë›
+y
+java:S2142)"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(øºÑûúÿÿÿÿ
