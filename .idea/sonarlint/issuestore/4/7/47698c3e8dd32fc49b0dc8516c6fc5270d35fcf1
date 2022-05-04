@@ -1,0 +1,15 @@
+
+_
+java:S1192""IDefine a constant instead of duplicating this literal "Airport:" 4 times.(È ƒÈ
+S
+java:S1854"8Remove this useless assignment to local variable "type".(ªÄË·ûÿÿÿÿ
+Z
+java:S1854"8Remove this useless assignment to local variable "type".(‡³ù—ûÿÿÿÿ8ªı°ˆ0
+y
+java:S2142%"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(È ƒÈ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(óûÎÎùÿÿÿÿ
+t
+java:S21425"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(²Îú”
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(”ÅÑÀúÿÿÿÿ
