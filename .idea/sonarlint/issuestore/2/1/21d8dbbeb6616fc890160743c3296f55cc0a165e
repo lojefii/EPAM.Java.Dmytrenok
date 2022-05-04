@@ -5,10 +5,10 @@ m
 java:S1450"WRemove the "endLatch" field and declare it as a local variable in the relevant methods.(´œ¸
 y
 java:S2142H"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿ
-S	java:S106A"9Replace this use of System.out or System.err by a logger.(±¨±¯úÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(¯á×“
 N	java:S106F"9Replace this use of System.out or System.err by a logger.(¿è®Î
 3
 java:S2119N"Save and re-use this "Random".(¼İÅf
-S	java:S106Q"9Replace this use of System.out or System.err by a logger.(ÂõÇÖùÿÿÿÿ
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(¨ÇşÇ
 3
 java:S2119W"Save and re-use this "Random".(¼İÅf

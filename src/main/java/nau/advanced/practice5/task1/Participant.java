@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
 public class Participant extends Thread{
-    private int participantId;
+    private int id;
     private int cash;
     private int currentLotPrice;
     private boolean access;
@@ -13,8 +13,8 @@ public class Participant extends Thread{
     private CountDownLatch beginLatch;
     private CountDownLatch endLatch;
 
-    public Participant(int participantId, int cash, Auction auction) {
-        this.participantId = participantId;
+    public Participant(int id, int cash, Auction auction) {
+        this.id = id;
         this.cash = cash;
         this.auction = auction;
         this.access = true;
@@ -22,7 +22,7 @@ public class Participant extends Thread{
     }
 
     public int getParticipantId() {
-        return participantId;
+        return id;
     }
 
     public int getCash() {
@@ -62,7 +62,7 @@ public class Participant extends Thread{
                 if (access) {
                     currentLotPrice = getCurrentPrice();
                     raiseThePrice();
-                    System.out.println(participantId + " -> " + currentLotPrice);
+                    System.out.println(id + " - " + currentLotPrice);
                 } else {
                     currentLotPrice = 0;
                 }
@@ -78,7 +78,7 @@ public class Participant extends Thread{
         Random random = new Random();
         if (random.nextInt(2) == 0) {
             this.currentLotPrice += random.nextInt(50);
-            System.out.println("Update:" + participantId + " -> " + currentLotPrice);
+            System.out.println("Update:" + id + " - " + currentLotPrice);
         }
     }
 
@@ -109,7 +109,7 @@ public class Participant extends Thread{
 
     @Override
     public String toString() {
-        return "Participant{id = " + participantId + ", cash = " + cash
+        return "Participant{id = " + id + ", cash = " + cash
                 + ", access = " + access + ", fineCounter = " + fineCounter + "}";
     }
 }
