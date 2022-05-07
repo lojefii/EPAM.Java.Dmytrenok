@@ -1,19 +1,25 @@
 package nau.advanced.practice6.strategy.cards;
 
+import nau.advanced.practice6.strategy.cards.strategies.TexasHoldemStrategy;
+import nau.advanced.practice6.strategy.cards.strategies.ClassicPokerCardDealingStrategy;
+import nau.advanced.practice6.strategy.cards.strategies.BridgeCardDealingStrategy;
+import nau.advanced.practice6.strategy.cards.strategies.FoolCardDealingStrategy;
+
+
 public class CardDealingStrategies {
     public static CardDealingStrategy texasHoldemCardDealingStrategy() {
-        throw new UnsupportedOperationException();
+        return new TexasHoldemStrategy();
     }
 
     public static CardDealingStrategy classicPokerCardDealingStrategy() {
-        throw new UnsupportedOperationException();
+        return new ClassicPokerCardDealingStrategy();
     }
 
-    public static CardDealingStrategy bridgeCardDealingStrategy(){
-        throw new UnsupportedOperationException();
+    public static CardDealingStrategy bridgeCardDealingStrategy() {
+        return new BridgeCardDealingStrategy();
     }
 
-    public static CardDealingStrategy foolCardDealingStrategy(){
-        throw new UnsupportedOperationException();
+    public static CardDealingStrategy foolCardDealingStrategy() {
+        return new FoolCardDealingStrategy();
     }
 }
