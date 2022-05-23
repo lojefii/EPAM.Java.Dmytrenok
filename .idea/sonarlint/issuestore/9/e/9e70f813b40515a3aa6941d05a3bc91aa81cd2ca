@@ -1,0 +1,39 @@
+
+d
+java:S22590"BA "NullPointerException" could be thrown; "film" is nullable here.(Ó²è üÿÿÿÿ8’Í­Š0
+j
+java:S2095B"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8ß‰ÀŠ0
+j
+java:S2095n"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8ß‰ÀŠ0
+k
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8ß‰ÀŠ0
+k
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8ß‰ÀŠ0
+j
+java:S2095+"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8à‰ÀŠ0
+r
+java:S2095‚"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(û½Ë¢úÿÿÿÿ8’Í­Š0
+j
+java:S2095["HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8à‰ÀŠ0
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(€”„±8à‰ÀŠ0
+k
+java:S2095Ç"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8à‰ÀŠ0
+k
+java:S2095²"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8à‰ÀŠ0
+O
+java:S1905+"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8å‰ÀŠ0
+O
+java:S1905B"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8è‰ÀŠ0
+O
+java:S1905["-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8è‰ÀŠ0
+O
+java:S1905n"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8ë‰ÀŠ0
+P
+java:S1905"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8í‰ÀŠ0
+P
+java:S1905"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8ï‰ÀŠ0
+P
+java:S1905²"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8ï‰ÀŠ0
+P
+java:S1905Ç"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8ò‰ÀŠ0

@@ -1,0 +1,8 @@
+
+_
+java:S1854"BRemove this useless assignment to local variable "connectionPool".(ãš€8ıå¯Š0
+P
+java:S1481"3Remove this unused "connectionPool" local variable.(ãš€8şå¯Š0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(†­‡
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›Ê¯Øûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ò×øäúÿÿÿÿ

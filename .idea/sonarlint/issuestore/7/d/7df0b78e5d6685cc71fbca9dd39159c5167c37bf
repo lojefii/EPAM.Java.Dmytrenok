@@ -1,0 +1,13 @@
+
+†
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÒªÆÛ
+†
+java:S1319!"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÅöÞ
+†
+java:S1319/"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ùš ¨
+‹
+java:S1319>"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÓšŽÙþÿÿÿÿ
+R
+java:S18541"7Remove this useless assignment to local variable "map".(¢³™’úÿÿÿÿ
+C
+java:S14811"(Remove this unused "map" local variable.(¢³™’úÿÿÿÿ

@@ -1,0 +1,18 @@
+
+2
+java:S1700"Rename field "connectionPool"(©¾
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†¶ª
+8
+java:S1116"Remove this empty statement.(©¾8ç¢²Š0
+;
+java:S3010" Remove this assignment of "url".(Ü¹ï³ÿÿÿÿÿ
+7
+java:S3010"!Remove this assignment of "user".(»¶¤İ
+;
+java:S3010"%Remove this assignment of "password".(÷ã´½
+P
+java:S2209"5Change this instance-reference to a static reference.(Ü¹ï³ÿÿÿÿÿ
+K
+java:S2209"5Change this instance-reference to a static reference.(»¶¤İ
+K
+java:S2209"5Change this instance-reference to a static reference.(÷ã´½

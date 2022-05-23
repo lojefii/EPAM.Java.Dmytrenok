@@ -1,0 +1,35 @@
+
+Y
+java:S22591"CA "NullPointerException" could be thrown; "actor" is nullable here.(ıÊèì
+e
+java:S2095_"HUse try-with-resources or close this "Connection" in a "finally" clause.(€”„±8´‹ÀŠ0
+k
+java:S2095ª"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8´‹ÀŠ0
+k
+java:S2095•"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8´‹ÀŠ0
+j
+java:S2095,"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8´‹ÀŠ0
+j
+java:S2095y"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8´‹ÀŠ0
+k
+java:S2095¿"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8´‹ÀŠ0
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8´‹ÀŠ0
+j
+java:S2095C"HUse try-with-resources or close this "Connection" in a "finally" clause.(½Ë³üÿÿÿÿ8´‹ÀŠ0
+O
+java:S1905"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8¸‹ÀŠ0
+O
+java:S1905,"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8¹‹ÀŠ0
+O
+java:S1905C"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8»‹ÀŠ0
+H
+java:S2695G"+This "PreparedStatement" has no parameters.(ö²şü8“÷¬Š0
+O
+java:S1905y"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8¿‹ÀŠ0
+P
+java:S1905•"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8Á‹ÀŠ0
+P
+java:S1905ª"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8Ã‹ÀŠ0
+P
+java:S1905¿"-Remove this unnecessary cast to "Connection".(½Ë³üÿÿÿÿ8Ä‹ÀŠ0
